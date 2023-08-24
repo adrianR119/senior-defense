@@ -1,5 +1,6 @@
 print("hello")
 
-git add "Adrian.py"
-git commit -m "hi"
-git push -u origin main
+distance = int(input("Enter distance in light years."))
+speed = int(input("Enter the spacecraft speed."))
+time = distance/speed
+print(time, "is your time.")
